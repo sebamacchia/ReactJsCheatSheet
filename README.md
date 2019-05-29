@@ -20,6 +20,15 @@ So u wanna f*** react? Here the most complete and compact ReactJS cheat sheet in
 ## What is?
 
 - React is a JavaScript library for building user interfaces
+Was created and maintained by Facebook.
+
+ReactJS makes no assumptions about your technology stack, so you can use ReactJS to:
+
+Build a widget
+Add a reusable component (header, footer, etc.)
+Build the entire front-end experience (like Facebook)
+Just to reiterate, you can incorporate ReactJS into different types of front-end tech stacks (AngularJS, Backbone, etc.) or you can choose to build entire applications out of ReactJS!
+
 
 
 ```html
