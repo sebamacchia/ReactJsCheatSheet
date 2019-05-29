@@ -19,8 +19,8 @@ So u wanna f*** react? Here the most complete and compact ReactJS cheat sheet in
 
 ## What is?
 
-- React is a JavaScript library for building user interfaces
--- Was created and maintained by Facebook.
+- React is a JavaScript library for building user interfaces.
+- Was created and maintained by Facebook.
 
 ReactJS makes no assumptions about your technology stack, so you can use ReactJS to:
 
