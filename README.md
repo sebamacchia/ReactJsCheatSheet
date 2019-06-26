@@ -5,7 +5,7 @@ So u wanna f*** react? Here the most complete and compact ReactJS cheat sheet in
 # Table of Contents
 
 1. [What is](#What-is)
-2. [Syntax](#Syntax)
+2. [Install](#Install)
 3. [Selectors](#Selectors)
 4. [Pseudo-selectors](#Pseudo-selectors)
 5. [Size and colors](#Size-and-colors)
