@@ -72,7 +72,7 @@ npx create-react-app
 ## run
 npm run start
 
-## File Analysis
+## What the f#$%^ are those files and folders!?
 - readme.md: is to inform other developers abput my project
 - package.json: information about name, version, etc.
 - package-lock: dont touch this file
