@@ -49,6 +49,8 @@ Just to reiterate, you can incorporate ReactJS into different types of front-end
 - External Style Sheet
 
 ```html
+
+
 <head>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -62,3 +64,12 @@ selector {
   }
 }
 ```
+
+
+## Install
+npx create-react-app
+
+## run
+npm run start
+
+
