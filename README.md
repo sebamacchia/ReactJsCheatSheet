@@ -72,4 +72,15 @@ npx create-react-app
 ## run
 npm run start
 
+## File Analysis
+- readme.md: is to inform other developers abput my project
+- package.json: information about name, version, etc.
+- package-lock: dont touch this file
+- gitignore: the files that are listed here will not upload to githih
+- src: here is the react code
+- public: this folder containt the index.html of all our lives dude!
+
+
+
+
 
