@@ -49,7 +49,7 @@ npx create-react-app
 npm run start
 
 ## What the f#$%^ are those files and folders!?
-- readme.md: is to inform other developers abput my project
+
 - package.json: information about name, version, etc.
 - package-lock: dont touch this file
 - gitignore: the files that are listed here will not upload to githih
@@ -57,6 +57,32 @@ npm run start
   - index.js: is the file that start the react app
 - public: this folder containt the index.html of all our lives dude!
   - index.html: the files has a div wich id is root, is basicaly the hole aplication
+  
+  
+	├── LICENSE
+	├── README.md //is to inform other developers abput my project
+	├── bin
+	│   └── www
+	├── client
+	│   ├── container
+	│   │   └── index.js
+	│   ├── index.js
+	│   ├── polyfills.js
+	│   └── views
+	│       ├── index.jade
+	│       └── layout.jade
+	├── config
+	│   └── index.js
+	├── nodemon.json
+	├── package.json
+	├── server
+	│   ├── index.js
+	│   └── routes
+	│       └── index.js
+	└── webpack
+	    ├── dev.config.js
+	    ├── index.js
+	    └── prod.config.js
   
 ## The Virtual DOM
 
@@ -111,7 +137,7 @@ Using the Virtual DOM provides:
 
 For more information, check out [Virtual Dom](https://github.com/Matt-Esch/virtual-dom).
 
-## Unidirectional Data Flow
+## Unidirectional Data Flow - PROPS
 
 ReactJS implements a one-way data flow. This means that data is passed from the top-down, through **props**. Data is transferred from the top component to its children, so on and so forth. 
 
@@ -151,85 +177,9 @@ class FancyForm extends Component {
 
 We will see this in action in the future examples.
 
-## Getting started
+## State
+Props son datos que le pasamos de afuera hacia dentro del componente
 
-Getting started is ReactJS is easy. I have provided a boilerplate [here](https://github.com/stanleycyang/react-bible-boilerplate). 
-
-This [repository](https://github.com/stanleycyang/react-bible-boilerplate) contains:
-
-- The boilerplate 
-- The walkthrough 
-- All the completed examples 
-
-I recommend you **star**, **fork**, or **clone** this repo for your own reference. If you want to follow along, you will need to follow the instructions below:
-
-**Installation:**
-
-```bash
-$ git clone https://github.com/stanleycyang/react-bible-boilerplate.git book-inventory
-$ cd book-inventory
-$ npm install
-```
-
-The boilerplate includes:
-
-- Babel
-- Webpack
-- Express
-- ReactJS
-
-Once you have the boilerplate installed, we can get started building some ReactJS components!
-
-Our **roadmap**:
-
-- Client-side ReactJS
-- Isomorphic ReactJS
-
-## Book Inventory (client-side React)
-
-This is our current directory structure:
-
-	├── LICENSE
-	├── README.md
-	├── bin
-	│   └── www
-	├── client
-	│   ├── container
-	│   │   └── index.js
-	│   ├── index.js
-	│   ├── polyfills.js
-	│   └── views
-	│       ├── index.jade
-	│       └── layout.jade
-	├── config
-	│   └── index.js
-	├── nodemon.json
-	├── package.json
-	├── server
-	│   ├── index.js
-	│   └── routes
-	│       └── index.js
-	└── webpack
-	    ├── dev.config.js
-	    ├── index.js
-	    └── prod.config.js
-
-- **client**: contains all client-side code
-- **server**: contains all server-side code
-- **webpack**: our production and development configurations live here
-- **config**: we place all [ENV](http://www.computerhope.com/jargon/e/envivari.htm) variables here
-- **bin**: We place any scripts (`www`, `seed`, etc.) in here
-
-### Starting the Express Server
-
-To start the **Express** server, run in the root of the app directory:
-
-```bash
-$ npm run dev
-$ open http://localhost:3000
-```
-
-This will start a web server at `http://localhost:3000` with **hot reloading** and **nodemon**. This means you can see all the changes in real-time when the files are saved!
 
 ### Writing Your First React Component
 
